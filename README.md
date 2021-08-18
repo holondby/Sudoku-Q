@@ -6,4 +6,4 @@ The ltm.npy file is the stored long term memory that results when all 40 puzzles
 
 >Note To train an empty (i.e. *tabula rasa*) memory, simply change the memory_file name, in the Sudoku-Q main() function, to some non-existing file name.
 
-The Print_Dictionary application displays the contents of the dictionary. It should be used with care, however, when run against a large memory, the program can generate substantial screen output.
+The Print_Dictionary application displays the contents of the dictionary. It should be used with care, however, when run against a large memory (like ltm.npy), the program can generate substantial screen output.
